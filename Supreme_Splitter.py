@@ -14,7 +14,8 @@ import numpy as np
 import xlsxwriter
 import time
 
-abspath = os.path.abspath("Supreme_Splitter.exe")
+#finds itself and makes a note of its location
+abspath = os.path.abspath("Supreme_Splitter.py")
 path = os.path.dirname(abspath)
 filenames1 = glob.glob(path + "/*.txt")
 
